@@ -1,0 +1,102 @@
+body{
+    font-family: 'ubuntu' ,'Albert Sans', sans-serif;
+    margin:0px;
+    padding:0px;
+    background:url('https://cdn.pixabay.com/photo/2018/09/27/14/14/analysis-3707159_960_720.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100%;
+    
+}
+.left{
+    display:inline-block;
+    /* border:2px solid royalblue; */
+    position:absolute;
+    left:38px;
+    top:13px;
+    color:rgb(249 242 226);
+
+}
+.left img{
+    width:93px;
+}
+.left div{
+    line-height:15px;
+    font-size:24px;
+    text-align:center;
+}
+.mid{
+    display:block;
+    /* border:2px solid goldenrod; */
+    width:50%;
+    margin:4px auto;
+
+}
+.right{
+    position:absolute;
+    top:13px;
+    right:38px;
+    display:inline-block;
+    /* border :2px solid saddlebrown; */
+    color:rgb(249 242 226);
+
+
+}
+.navbar{
+    display:inline-block;
+}
+.navbar li{
+    display:inline-block;
+    font-size:20px;
+}
+.navbar li a{
+    color:rgb(255 246 226);
+    text-decoration:none;
+    padding:20px 20px;
+}
+.navbar li a:hover , .navbar li a.active{
+    color:rgb(106, 100, 129);
+    text-decoration:underline;
+   
+}
+.btn{
+    font-family: 'ubuntu' ,'Albert Sans', sans-serif;
+    margin:0px 9px;
+    padding:5px 9px;
+    border: 2px solid darkblue;
+    border-radius:18px;
+    font-size:20px;
+    cursor:pointer;
+    background-color: brown;
+    color:blanchedalmond;
+}
+.btn:hover{
+    background-color:blueviolet;
+}
+.container{
+    border:2px solid tan;
+    margin:86px 26px;
+    padding:46px;
+    width:28%;
+    border-radius:46px;
+}
+.form-group input{
+    font-family: 'ubuntu' ,'Albert Sans', sans-serif;
+    text-align:center;
+    display:block;
+    width:359px;
+    padding:6px;
+    border:2px solid #262603;
+    border-radius:27px;
+    margin:7px auto;
+    font-size: 21px;
+}
+.container h1{
+    text-align:center;
+    color:#fbd100;
+}
+.container button{
+    display:block;
+    width:45%;
+    margin:20px auto;
+}
